@@ -1,0 +1,13 @@
+.city {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.city:last-child {
+  border-bottom: none;
+}
+
+.city:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
